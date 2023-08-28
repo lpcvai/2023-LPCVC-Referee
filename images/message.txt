@@ -1,0 +1,8 @@
+This is the referee system. 
+
+For this demo, we will be running a phony sample solution to quickly generalize how 
+the referee system works on this machine. 
+
+We will add this solution inside our queue, and run it onto the raspberry pi. 
+It will output a graded score and save the results inside a directory.
+

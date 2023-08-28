@@ -1,0 +1,9 @@
+- name: Remove Cron Job
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Remove cron job
+      cron:
+        name: "Cron for lpcvc2023"
+        state: absent

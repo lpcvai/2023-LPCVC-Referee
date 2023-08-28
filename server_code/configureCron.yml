@@ -1,0 +1,10 @@
+- name: Create Cron Job
+  hosts: localhost
+  gather_facts: false
+
+  tasks:
+    - name: Create cron job
+      cron:
+        name: "Cron for lpcvc2023"
+        special_time: "reboot"
+        job: "python3 /home/lpcv-server/referee/source_code/lpcvc/LPCVC2023/startscoring.py"
