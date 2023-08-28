@@ -4,8 +4,9 @@
 
 ### Background
 
-This is the referee system for the 2023 Low Power Computer Vision Competition, can be found [here](https://lpcv.ai)
-View the sample solution [here](https://lpcv.ai](https://github.com/lpcvai/23LPCVC_Segmentation_Track-Sample_Solution)
+This is the referee system for the 2023 Low Power Computer Vision Competition can be found [here](https://lpcv.ai)
+
+View the sample solution [here](https://github.com/lpcvai/23LPCVC_Segmentation_Track-Sample_Solution)
 
 ### Setup
 1. Clone this repository onto both server and nano
